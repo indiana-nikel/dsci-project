@@ -1,3 +1,6 @@
+*Created by Indiana Nikel*
+*Last edit on November 17, 2017*
+
 # Overview
 
 A workflow optimization for data science project creations. Created

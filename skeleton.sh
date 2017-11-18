@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# Created by Indiana Nikel
+# Last edit on November 17, 2017
+
 name=${1:-"Indiana Nikel"}
 dir=${2:-"dsci_project"}
 
