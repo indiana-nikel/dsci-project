@@ -59,6 +59,8 @@ The above code will create a directory `sample_project` with the skeleton framew
 
 ```
 
+---
+
 ### Directories
 
 ##### data

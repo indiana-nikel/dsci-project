@@ -55,9 +55,9 @@ DEALINGS IN THE SOFTWARE." >> LICENSE.md
 
   # Create and populate CONTRIBUTING
 
-  echo "###### Project structure developed by Indiana Nikel: [](https://github.com/indiana-nikel/dsci_project)" > CONTRIBUTING.md
+  echo "###### Project structure developed by Indiana Nikel: [https://github.com/indiana-nikel/dsci_project](https://github.com/indiana-nikel/dsci_project)" > CONTRIBUTING.md
 
-echo "\n### Base structure pulled from [](https://drivendata.github.io/cookiecutter-data-science/)." >> CONTRIBUTING.md
+echo "\n### Base structure pulled from [https://drivendata.github.io/cookiecutter-data-science/](https://drivendata.github.io/cookiecutter-data-science/)." >> CONTRIBUTING.md
 
   echo -e "\nProject created by $name." >> CONTRIBUTING.md
 
