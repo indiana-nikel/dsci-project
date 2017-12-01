@@ -25,11 +25,53 @@ The above code will create a directory `sample_project` with the skeleton framew
 
 ---
 
+## Directory Structure
+
+```
+
+├── LICENSE.md
+├── CITATION.md
+├── CONTRIBUTING.md
+├── README.md          <- The top-level README for developers using this project.
+|
+├── data
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── docs               <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries.
+│
+├── results            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   ├── figures        <- Generated graphics and figures to be used in reporting.
+│   └── reports        <- R scripts
+│
+├── src                <- Source code for use in this project.
+│   ├── python         <- Python scripts.
+│   ├── r              <- R scripts.
+│   ├── sql            <- SQL scripts.
+│   └── shell          <- Shell scripts.
+|
+├── img                <- Raw images from third-parties
+|
+├── sandbox            <- Raw files from third parties for documentation purposes only.
+
+```
+
 ### Directories
 
 ##### data
 
-The directory to hold **raw** data sets for analysis//use. Any data sets that have been altered through data-wrangling or similar processes should be included in the `results` directory instead.
+The directory to hold data sets for analysis/use. Raw data sets should be included in the `raw` sub-directory and should be considered immutable. Any data sets that have been altered through data-wrangling or similar processes should be included in the `interim` when in-process and `processed` when complete.
+
+##### docs
+
+The directory to hold all documents relating to the data science project. This can include, but is not limited to, manuals, library dependencies, references, and reports.
+
+##### models
+
+The directory for everything model-specific. This includes, but is not limited to, trained and serialized models, model predictions, and model summaries.
 
 ##### results
 
@@ -37,11 +79,7 @@ The directory to hold **raw** data sets for analysis//use. Any data sets that ha
 
 ##### src
 
-The directory to hold all source code files (.py, .R, .sh, etc.). Can be organized further to separate files based on coding language at user discretion.
-
-##### doc
-
-The directory to hold all documents relating to the data science project. This can include, but is not limited to, manuals, library dependencies, references, and reports.
+The directory to hold all source code files (.py, .R, .sh, etc.). Currently separated by `python`, `r`, `sql`, and `shell`, all corresponding to their appropriate languages. Can be organized further upon user discretion.
 
 ##### img
 

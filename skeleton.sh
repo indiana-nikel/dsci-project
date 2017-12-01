@@ -57,6 +57,8 @@ DEALINGS IN THE SOFTWARE." >> LICENSE.md
 
   echo "###### Project structure developed by Indiana Nikel: [](https://github.com/indiana-nikel/dsci_project)" > CONTRIBUTING.md
 
+echo "\n### Base structure pulled from [](https://drivendata.github.io/cookiecutter-data-science/)." >> CONTRIBUTING.md
+
   echo -e "\nProject created by $name." >> CONTRIBUTING.md
 
   echo -e "\n<additional collaborators>" >> CONTRIBUTING.md
@@ -69,5 +71,31 @@ DEALINGS IN THE SOFTWARE." >> LICENSE.md
 
   # Create Directories
 
-  mkdir data results src doc img sandbox
+  mkdir data results src docs img sandbox models
+  mkdir data/raw data/interim data/processed
+  mkdir results/figures results/reports
+  mkdir src/python src/r src/shell
+
+  # Create blank REAME.md files
+
+  echo > data/README.md
+  echo > data/raw/README.md
+  echo > data/interim/README.md
+  echo > data/processed/README.md
+
+  echo > results/README.md
+  echo > results/figures/README.md
+  echo > results/reports/README.md
+
+  echo > src/README.md
+  echo > src/python/README.md
+  echo > src/r/README.md
+  echo > src/shell/README.md
+
+  echo > img/README.md
+  echo > docs/README.md
+  echo > sandbox/README.md
+  echo > models/README.md
+
+
 fi
