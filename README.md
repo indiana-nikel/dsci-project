@@ -3,12 +3,11 @@
 
 # Overview
 
-A workflow optimization for data science project creations. Created
-from the `skeleton.sh` script, the resulting directory contains all standard directories, files, and licenses for a data analysis project.
+A workflow optimization for data science project creations. Created from the `proj_skeleton.sh` script, the resulting directory contains all standard directories, files, and licenses for a data analysis project.
 
 ## Operation
 
-`skeleton.sh` takes two arguments (in order):
+`proj_skeleton.sh` takes two arguments (in order):
 
 * 1st argument: <author_name> (in quotations), with the default name "Indiana Nikel" (the original script author) if left blank. <author_name> will be inserted into the appropriate LICENSE, CONTRIBUTING, and CITATION documents.
 
@@ -18,7 +17,7 @@ The script passes these arguments and constructs a data science project skeleton
 
 Example of use:
  ```
-bash skeleton.sh "John Doe" "sample_project"
+bash proj_skeleton.sh "John Doe" "sample_project"
 
  ```
 The above code will create a directory `sample_project` with the skeleton framework of data science project, specified below. `John Doe` will be included in the LICENSE, CONTRIBUTING, and CITATION documents.
@@ -92,7 +91,7 @@ The directory to hold all miscellaneous files that are included in the project, 
 
 ##### template
 
-The directory to hold `skeleton.sh` and `README.md` for documentation purposes.
+The directory to hold `proj_skeleton.sh` and `README.md` for documentation purposes.
 
 ---
 
@@ -108,7 +107,7 @@ Standard MIT license allowing for free distribution and use of your project by t
 
 ##### CONTRIBUTING
 
-Contains the contributors to the data science project, including the author of the data science project `skeleton.sh` script. Contributors must be co-authors or collaborators, where as external resources should be referenced in the `CITATION` document.
+Contains the contributors to the data science project, including the author of the data science project `proj_skeleton.sh` script. Contributors must be co-authors or collaborators, where as external resources should be referenced in the `CITATION` document.
 
 ##### CITATION
 
