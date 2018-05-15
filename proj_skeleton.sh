@@ -84,19 +84,19 @@ is for <personal/commercial/educational> use." >> README.md
   # Create regulatory files
 
   ## Base regulatory files
-  cd ..
-  cp CONDUCT.md $dir/CONDUCT.md
-  cp CONTRIBUTING.md $dir/CONTRIBUTING.md
-  cp CITATION.md $dir/CITATION.md
-  cp LICENSE.md $dir/LICENSE.md
-  cp .gitignore $dir/.gitignore
+  cd ../templateProj
+  cp CONDUCT.md ../$dir/CONDUCT.md
+  cp CONTRIBUTING.md ../$dir/CONTRIBUTING.md
+  cp CITATION.md ../$dir/CITATION.md
+  cp LICENSE.md ../$dir/LICENSE.md
+  cp .gitignore ../$dir/.gitignore
 
   ## Copy template script into new project directory
-  cp README.md $dir/template/README.md
-  cp proj_skeleton.sh $dir/template/proj_skeleton.sh
+  cp README.md ../$dir/template/README.md
+  cp proj_skeleton.sh ../$dir/template/proj_skeleton.sh
 
   ## Edit CITATION document with project information
-
+  cd ../$dir
   echo -e "\n##Project" >> CITATION.md
   echo -e "\nProject created on $(date +"%m-%d-%Y")" >> CITATION.md
   echo -e "\nProject author: $name." >> CITATION.md
