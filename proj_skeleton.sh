@@ -89,6 +89,7 @@ is for <personal/commercial/educational> use." >> README.md
   cp CONTRIBUTING.md $dir/CONTRIBUTING.md
   cp CITATION.md $dir/CITATION.md
   cp LICENSE.md $dir/LICENSE.md
+  cp .gitignore $dir/.gitignore
 
   ## Copy template script into new project directory
   cp README.md $dir/template/README.md
