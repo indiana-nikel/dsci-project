@@ -55,7 +55,7 @@ DEALINGS IN THE SOFTWARE." >> LICENSE.md
 
   # Create and populate CONTRIBUTING
 
-  echo "###### Project structure developed by Indiana Nikel: [https://github.com/indiana-nikel/dsci_project](https://github.com/indiana-nikel/dsci_project)" > CONTRIBUTING.md
+  echo "###### Project structure developed by Indiana Nikel: [https://github.com/indiana-nikel/templateProj](https://github.com/indiana-nikel/templateProj)" > CONTRIBUTING.md
 
   echo "\n### Base structure pulled from [https://drivendata.github.io/cookiecutter-data-science/](https://drivendata.github.io/cookiecutter-data-science/)." >> CONTRIBUTING.md
 
@@ -99,6 +99,6 @@ DEALINGS IN THE SOFTWARE." >> LICENSE.md
 
   cd ..
   cp README.md $dir/template/README.md
-  cp skeleton.sh $dir/template/skeleton.sh
+  cp proj_skeleton.sh $dir/template/proj_skeleton.sh
 
 fi
