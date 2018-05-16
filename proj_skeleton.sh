@@ -7,6 +7,7 @@ name=${1:-"Indiana Nikel"}
 dir=${2:-"dsci_project"}
 
 # Make a directory, if non-existent
+
 cd ..
 mkdir $dir
 
@@ -16,7 +17,10 @@ else
   cd $dir
 
   # Create and populate README
-  echo "# Overview" > README.md
+
+  echo '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.' > README.md
+
+  echo -e "\n# Overview" >> README.md
 
   echo -e "\nThis is the main directory for the data science project: \`$dir\`.
 The data science project \`$dir\` is for the purpose of <research/analysis> and
