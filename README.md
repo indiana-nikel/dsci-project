@@ -45,7 +45,7 @@ The above code will create a directory `sample_project` with the skeleton framew
 │
 ├── results            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   ├── figures        <- Generated graphics and figures to be used in reporting.
-│   └── reports        <- R scripts
+│   └── reports        <- HTML, PDF, LaTeX, slides, or any other reporting documents.
 │
 ├── src                <- Source code for use in this project.
 │   ├── python         <- Python scripts.
